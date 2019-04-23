@@ -1,0 +1,96 @@
+{
+	"questions": [
+
+		{
+			"questionText": "Dimanakah kota yang menjadi bukti sejarah perhitungan bangsa Babilonia?",
+			"answers": [
+				{"answer": "Niniveh", "correct": true, "selected": false},
+				{"answer": "Mesopatamia", "correct": false, "selected": false},
+				{"answer": "Samos", "correct": false, "selected": false},
+				{"answer": "Mesir", "correct": false, "selected": false}
+			]
+		},
+		{
+			"questionText": "Apa sistem bilangan yang digunakan oleh  bangsa Babilonia?",
+			"answers": [
+				{"answer": "Sistem Desimal", "correct": false, "selected": false},
+				{"answer": "Sistem Seksagesimal", "correct": true, "selected": false},
+				{"answer": "Sistem Pecahan", "correct": false, "selected": false},
+				{"answer": "Sistem Biner", "correct": false, "selected": false}
+			]
+		},
+		{
+			"questionText": "Baji tegak dalam sistem bilangan Babilonia mewakili angka?",
+			"answers": [
+				{"answer": "0-9", "correct": false, "selected": false},
+				{"answer": "1-9", "correct": true, "selected": false},
+				{"answer": "10-20", "correct": false, "selected": false},
+				{"answer": "11-20", "correct": false, "selected": false}
+			]
+		},
+		{
+			"questionText": "Bagaimana penerapan teorema phytagoras  pada bangsa mesir?",
+			"answers": [
+				{"answer": "Diterapkan pada materi di sekolah-sekolah Mesir", "correct": false, "selected": false},
+				{"answer": "Digunakan untuk membangun piramida", "correct": true, "selected": false},
+				{"answer": "Digunakan untuk membangun tanggul pencegah banjir", "correct": false, "selected": false},
+				{"answer": "Digunakan untuk mengukur  volume suatu bangun", "correct": false, "selected": false}
+			]
+		},
+		{
+			"questionText": "Bagaimana bunyi teorema Phytagoras?",
+			"answers": [
+				{"answer": "Dalam segitiga siku-siku, jumlah sisi-sisi yang saling tegak lurus adalah sama dengan kuadrat sisi miringnya", "correct": false, "selected": false},
+				{"answer": "Dalam segitiga siku-siku, jumlah kuadrat sisi-sisi yang saling tegak lurus adalah sama dengan kuadrat sisi miringnya", "correct": true, "selected": false},
+				{"answer": "Dalam segitiga siku-siku, jumlah kuadrat sisi-sisi yang saling tegak lurus adalah sama dengan akar kuadrat sisi miringnya", "correct": false, "selected": false},
+				{"answer": "Dalam segitiga siku-siku, jumlah kuadrat sisi-sisi yang saling tegak lurus adalah sama dengan sisi miringnya", "correct": false, "selected": false}
+			]
+		},
+		{
+			"questionText": "Siapakah matematiawan yang menjadi guru dari Phytagoras?",
+			"answers": [
+				{"answer": "Euclid", "correct": false, "selected": false},
+				{"answer": "Tales", "correct": true, "selected": false},
+				{"answer": "Al-khawarizmi", "correct": false, "selected": false},
+				{"answer": "Plato", "correct": false, "selected": false}
+			]
+		},
+		{
+			"questionText": "Siapakah bangsa yang telah menggunakan teorema phytagoras pada abad 1700 SM?",
+			"answers": [
+				{"answer": "Bangsa Arab", "correct": false, "selected": false},
+				{"answer": "Bangsa Babilonia", "correct": true, "selected": false},
+				{"answer": "Bangsa Romawi", "correct": false, "selected": false},
+				{"answer": "Bangsa Mesir", "correct": false, "selected": false}
+			]
+		},
+		{
+			"questionText": "Dimanakah bukti sejarah angka dari bangsa Mesir dapat ditemukan?",
+			"answers": [
+				{"answer": "Papirus Rhind", "correct": false, "selected": false},
+				{"answer": "Hieroglif", "correct": true, "selected": false},
+				{"answer": "Tablet Zamrud", "correct": false, "selected": false},
+				{"answer": "Babylon Erly Map", "correct": false, "selected": false}
+			]
+		},
+		{
+			"questionText": "Siapakah matematikawan yang dikenal sebagai bapak aljabar sekaligus sebagai penemu angka?",
+			"answers": [
+				{"answer": "Euclid", "correct": false, "selected": false},
+				{"answer": "Al- Khawariami", "correct": true, "selected": false},
+				{"answer": "Plato", "correct": false, "selected": false},
+				{"answer": "Phytagoras", "correct": false, "selected": false}
+			]
+		},
+		{
+			"questionText": "Manakah berikut ini yang bukan merupakan bangsa penemu angka?",
+			"answers": [
+				{"answer": "Bangsa Romawi", "correct": false, "selected": false},
+				{"answer": "Bangsa Yunani", "correct": true, "selected": false},
+				{"answer": "Bangsa Arab", "correct": false, "selected": false},
+				{"answer": "Bangsa mesir", "correct": false, "selected": false}
+			]
+		}
+
+	]
+}

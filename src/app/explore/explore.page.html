@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/home"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Explore</ion-title>
+  </ion-toolbar>
+ </ion-header>
+ 
+ <ion-content class="ion-padding">
+    <ion-grid>
+        <ion-row>
+            <ion-button ion-button round icon-start color="danger" (click)="openMyVideo()">
+                <ion-icon name="logo-youtube"></ion-icon>
+                Open YouTube Video
+              </ion-button>
+          </ion-row>
+
+          <ion-row>
+            <ion-button full (click)="openVideo()" class="ion-padding">2 of 2</ion-button>
+        </ion-row>
+
+        <ion-row>
+              <ion-button full (click)="openVideo()" class="ion-padding">1 of 2</ion-button>
+        </ion-row>
+        <ion-row>
+              <ion-button full (click)="openVideo()" class="ion-padding">2 of 2</ion-button>
+        </ion-row>
+      </ion-grid>
+ </ion-content>

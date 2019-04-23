@@ -1,0 +1,7 @@
+{
+  "name": "SistemInformasiBasdat",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
