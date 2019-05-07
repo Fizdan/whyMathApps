@@ -1,14 +1,73 @@
 <ion-content>
+  <!--
   <div id="gambar" class="ion-padding">
     <img src="../../assets/images/test.jpg" alt="">
   </div>
   <div id="my_centered_buttons" class="ion-padding">
-    <ion-button id="buttonstyle" routerLink="/explore">Explore</ion-button>
+    <ion-button class="round" background=linear-gradient(90deg, #8ce0f1, #79f391); id="buttonstyle" routerLink="/explore">Explore</ion-button>
   </div>
   <div id="my_centered_buttons" class="ion-padding">
-    <ion-button id="buttonstyle" routerLink="/excercise">Excercise</ion-button>
+    <ion-button class="round" id="buttonstyle" routerLink="/excercise">Excercise</ion-button>
   </div>
   <div id="my_centered_buttons" class="ion-padding">
-    <ion-button id="buttonstyle" routerLink="/about">About</ion-button>
+    <ion-button class="round" id="buttonstyle" routerLink="/about">About</ion-button>
   </div>
+-->
+
+  <section text-center margin-bottom>
+      <img src="../../assets/images/newtitle.png">     
+    </section>
+  
+    <ion-grid>
+      <ion-col>
+          <ion-card style="background:#FF6379;" text-center padding class="bg-class" routerLink="/excercise">
+            <h4 float-left>EXCERCISE</h4>
+                <ion-icon name="school" float-right></ion-icon>
+              </ion-card>
+
+              <ion-card style="background:#00DCA9;" text-center padding class="bg-class" routerLink="/explore">
+                    <h4 float-left>EXPLORE</h4>
+                    <ion-icon name="book" float-right></ion-icon>
+                  </ion-card>
+
+                  <ion-card style="background:#0CD0DC;" text-center padding class="bg-class" routerLink="/about">
+                        <h4 float-left>ABOUT</h4>
+                        <ion-icon name="settingS" float-right></ion-icon>
+                      </ion-card>
+<!--<ion-card style="background:#F6C82D;" text-center padding class="bg-class">
+                            <h4 float-left>SHARE</h4>
+                            <ion-icon name="share" float-right></ion-icon>
+                          </ion-card>-->
+                      
+<!--
+        <ion-row row-4>
+          <ion-card text-center class="bg-class" padding routerLink="/explore">
+            <ion-icon name="person"></ion-icon>
+            <h2>Explore</h2>
+          </ion-card>
+        </ion-row>
+
+        <ion-row row-4>
+          <ion-card text-center padding class="bg-class" routerLink="/excercise">
+            <ion-icon name="people" ></ion-icon>
+            <h2>Excercise</h2>
+          </ion-card>
+      </ion-row>
+
+        <ion-row row-4>
+          <ion-card text-center padding class="bg-class">
+            <ion-icon name="settings" ></ion-icon>
+            <h2>Setting</h2>
+          </ion-card>
+        </ion-row>
+      
+          <ion-row row-4>
+            <ion-card text-center padding class="bg-class">
+              <ion-icon name="settings" ></ion-icon>
+                <h2>Setting</h2>
+              </ion-card>
+            </ion-row>
+-->
+      </ion-col>
+    </ion-grid>
 </ion-content>

@@ -1,5 +1,5 @@
 <ion-header>
-  <ion-toolbar color="primary">
+  <ion-toolbar>
     <ion-buttons slot="start">
       <ion-back-button defaultHref="/home"></ion-back-button>
     </ion-buttons>
@@ -7,19 +7,18 @@
   </ion-toolbar>
  </ion-header>
  
- <ion-content>
+ <ion-content style="background:#FF6379;">
 
   <ion-slides pager="true" [options]="{pagination: true}" #slides>
 
       <ion-slide class="start-slide">
-          <ion-button class="ion-padding" color="primary" (click)="nextSlide()">Start!</ion-button>
+          <ion-button class="ion-padding" (click)="nextSlide()">Start!</ion-button>
       </ion-slide>
 
       <ion-slide *ngFor="let question of questions; let i = index;">
           <ion-grid>
-        <ion-row align-items-center>
               <ion-col col-3>
-          <div class="ion-padding" full>Question {{i+1}}</div>
+          <div class="ion-padding" full>Pertanyaan {{i+1}}</div>
             </ion-col>
             <ion-col col-3>
           <div class="ion-padding" full>{{question.questionText}}</div>
@@ -36,14 +35,13 @@
 
           </ion-list>
         </ion-col>
-      </ion-row>
   </ion-grid>
       </ion-slide>
 
       <ion-slide>
-          <h2>Final Score: {{score}}</h2>
+          <h2>Final Score: {{score}}<br/></h2>
 
-          <ion-button (click)="restartQuiz()" ion-button full color="primary">Start Again</ion-button>
+          <ion-button (click)="restartQuiz()" ion-button full>Start Again</ion-button>
 
       </ion-slide>
 

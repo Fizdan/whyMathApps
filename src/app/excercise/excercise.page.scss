@@ -41,3 +41,29 @@
     white-space: inherit;
     font-size: 25px;
   }
+  ion-toolbar{
+    --background:rgb(255, 255, 255);
+    --color:#FF6379;
+}
+
+ion-button{
+    --background:rgb(255, 255, 255);
+    --color:#FF6379;
+}
+
+ion-content{
+    --background:#FF6379;
+    --color:#ffffff;
+}
+ion-list{
+    --background:#FF6379;
+}
+ion-item{
+    --background:#FF6379;
+    --color:#ffffff;
+}
+
+ion-radio{
+    --color-checked:#FFF;
+    --color:#FFF;
+}

@@ -14,12 +14,29 @@ export class ExplorePage implements OnInit {
   constructor(private activatedRoute: ActivatedRoute, private youtube: YoutubeVideoPlayer) { }
 
 
-  ngOnInit() {   this.myId = this.activatedRoute.snapshot.paramMap.get('myid');
+  ngOnInit() {this.myId = this.activatedRoute.snapshot.paramMap.get('myid');
 
   }
 
-  openMyVideo(){
-    this.youtube.openVideo('dQw4w9WgXcQ');
+  phytagoras(){
+    this.youtube.openVideo('yliw5IFXsSg');
   }
+
+  babilonia(){
+    this.youtube.openVideo('5GmHV4GsLOo');
+  }
+
+  sejarahangka(){
+    this.youtube.openVideo('SBu7sLYaK2g');
+  }
+
+  pascal(){
+    this.youtube.openVideo('XMriWTvPXHI');
+  }
+
+  himathsejarah(){
+    this.youtube.openVideo('ueI8Cg1cQs8');
+  }
+  
 
 }

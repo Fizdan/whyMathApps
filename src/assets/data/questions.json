@@ -22,10 +22,10 @@
 		{
 			"questionText": "Baji tegak dalam sistem bilangan Babilonia mewakili angka?",
 			"answers": [
-				{"answer": "0-9", "correct": false, "selected": false},
-				{"answer": "1-9", "correct": true, "selected": false},
-				{"answer": "10-20", "correct": false, "selected": false},
-				{"answer": "11-20", "correct": false, "selected": false}
+				{"answer": "0 - 9", "correct": false, "selected": false},
+				{"answer": "1 - 9", "correct": true, "selected": false},
+				{"answer": "10 - 20", "correct": false, "selected": false},
+				{"answer": "11 - 20", "correct": false, "selected": false}
 			]
 		},
 		{
